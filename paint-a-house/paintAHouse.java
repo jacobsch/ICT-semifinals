@@ -25,7 +25,7 @@ public class paintAHouse {
         // ensure prompt has a double
         while(!prompt.hasNextDouble()) {
             System.out.println("Oops please enter a number!"); // the message for the reprompt
-            prompt.next();
+            prompt.next()
         }
         double height = prompt.nextDouble(); // the prompt
 
