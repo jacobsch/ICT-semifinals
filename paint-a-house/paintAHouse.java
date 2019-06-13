@@ -56,6 +56,7 @@ public class paintAHouse {
         return area; // returning the area value
     } // ending of the method to find area
 
+    // main method
     public static void main(String[] args) {
         // Variable declaration
         String name;
