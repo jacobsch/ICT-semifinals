@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class main here.
+ * Write a description of class departmentCost here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class main
+public class departmentCost
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class main
+     * Constructor for objects of class departmentCost
      */
-    public main()
+    public departmentCost()
     {
         // initialise instance variables
         x = 0;
