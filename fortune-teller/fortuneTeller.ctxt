@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=fortuneTeller
+comment1.params=
+comment1.target=void\ mainMenu()
+comment1.text=\n\ Jacob\ Schwartz\ Semifinal\ Project\ for\ ICT12\n
+comment2.params=
+comment2.target=void\ mayan()
+comment3.params=
+comment3.target=void\ chinese()
+comment4.params=
+comment4.target=void\ zodiac()
+comment5.params=
+comment5.target=void\ random()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
