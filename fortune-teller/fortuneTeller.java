@@ -45,7 +45,41 @@ public class fortuneTeller {
         int numb = randomNumb.nextInt(3);
         if (numb == 0) {
             System.out.println("The Magic Genie has chosen the Mayan fortune for you!");
+            try {
+            Thread.sleep(2000);
+            } 
+            catch(InterruptedException e) {
+            mayan(); // this part is executed when an exception occurs
+            }
             mayan();
+        }
+        if (numb == 1) {
+            System.out.println("The Magic Genie has chosen the Chinese fortune for you!");
+            try {
+            Thread.sleep(2000);
+            } 
+            catch(InterruptedException e) {
+            chinese(); // this part is executed when an exception occurs
+            }
+            chinese();
+        }
+        if (numb == 2) {
+            System.out.println("The Magic Genie has chosen the Zodiac fortune for you!");
+            try {
+            Thread.sleep(2000);
+            } 
+            catch(InterruptedException e) {
+            zodiac(); // this part is executed when an exception occurs
+            }
+            zodiac();
+        }
+        else {
+            try {
+            Thread.sleep(2000);
+            } 
+            catch(InterruptedException e) {
+                System.out.println("Oops! The genie is sleeping!");
+            }
         }
     }
 
