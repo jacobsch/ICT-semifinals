@@ -1,33 +1,4 @@
-
-/**
- * Write a description of class departmentCost here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class departmentCost
-{
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class departmentCost
-     */
-    public departmentCost()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
-}
+”¿ª%Òõ»√{∂9âoù
+•ß‚ã~b‰Ã„súF\&sKÛ∑ã Ò:é‡67¬¡NA$3¶™Ì6ÔzÇ„äóõbå*úJ|PÅ?–Å7è?™:OòAÜáº	jF†\ëáü¨—¸S[#‹E(kÑ“•‘jÁ[Ú£d\ÍbFÛÕ¶üü¬úÚ´˙Ò>evJ{Û¶nñ
+ Ä,« îΩ¿3Ä\&ù<ó˘z˝oå	π¸_vìj@zm€ëçpON§œ™ l≤´Å
+‘4ãúüÃ∞9å™«¸˘†…¿k5rq:Û<9IQC£Ó‚oü¸©+ßq(°á…jG4†∫¶⁄Ÿôõ`!≤≤dU°G≈@ColÍ‡îåh]ˆØíñj8qC“âVm
