@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // importing the scanner
 import java.util.*;
  
 public class fortuneTeller {
