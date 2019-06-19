@@ -1,6 +1,7 @@
 import java.util.Scanner; // importing the scanner
 import java.util.*;
  
+ // start of fortuneTeller class
 public class fortuneTeller {
  
     /**
@@ -27,24 +28,38 @@ public class fortuneTeller {
 
     public static void mayan() {
         System.out.print('\f');
-        System.out.println("1!!!");
+        System.out.println("The mayan fortune is telling me some very strong stuff!");
+        System.out.println();
+        System.out.println("In approximately 3 months you will be hit by a bus!");
+        System.out.println("Then there is only a 20% you survive the crash!");
+        System.out.println("Have a good day!");
     }
 
     public static void chinese() {
         System.out.print('\f');
-        System.out.println("2!?!");
+        System.out.println("The chinese fortune teller has some very bad news...");
+        System.out.println();
+        System.out.println("Unfortunately in 36 hours you and Owen Holman will be dating");
+        System.out.println("Try to keep it positive after that! Not much else is happening in your life");
     }
 
     public static void zodiac() {
         System.out.print('\f');
-        System.out.println("3!??!");
+        System.out.println("The zodiac fortune! You came to the right place!!");
+        System.out.println();
+        System.out.println("There is only good stuff in your fortune");
+        System.out.println("As it sits right now you will live a long life!");
+        System.out.println("Have lots of wealth!");
+        System.out.println("and won't see Owen Holman in a long time!");
     }
 
+    // random method
     public static void random() {
-        Random randomNumb = new Random();
-        int numb = randomNumb.nextInt(3);
+        Random randomNumb = new Random(); // init random class
+        int numb = randomNumb.nextInt(3); // random number from random between 0-2
         if (numb == 0) {
-            System.out.println("The Magic Genie has chosen the Mayan fortune for you!");
+            System.out.println("The Magic Genie has chosen the Mayan fortune for you!"); // print
+            // try catch for delay
             try {
             Thread.sleep(2000);
             } 
@@ -54,7 +69,8 @@ public class fortuneTeller {
             mayan();
         }
         if (numb == 1) {
-            System.out.println("The Magic Genie has chosen the Chinese fortune for you!");
+            System.out.println("The Magic Genie has chosen the Chinese fortune for you!"); // print
+            // try catch for delay
             try {
             Thread.sleep(2000);
             } 
@@ -64,7 +80,8 @@ public class fortuneTeller {
             chinese();
         }
         if (numb == 2) {
-            System.out.println("The Magic Genie has chosen the Zodiac fortune for you!");
+            System.out.println("The Magic Genie has chosen the Zodiac fortune for you!"); // print
+            // try catch for delay
             try {
             Thread.sleep(2000);
             } 
@@ -74,6 +91,7 @@ public class fortuneTeller {
             zodiac();
         }
         else {
+            // try catch for delay
             try {
             Thread.sleep(2000);
             } 
@@ -83,6 +101,7 @@ public class fortuneTeller {
         }
     }
 
+    // start of main method
     public static void main(String[] args) {
         // Initalize most datatypes
         boolean stay = true;
