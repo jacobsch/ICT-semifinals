@@ -7,4 +7,12 @@ Written and created entirely by Handsworth Student [Jacob Schwartz](https://jaco
 |-/paint-a-house
 |--package.bluej
 |
+|
+|-/department-costs
+|--package.bluej
+|
+|
+|-/fortune-teller
+|--package.bluej
+|
 ```
